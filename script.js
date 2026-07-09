@@ -47,7 +47,9 @@ function mostraAlternativas(){
             mostraPergunta();
         })
         // Adiciona o botão criado como um filho dentro do elemento 'caixaAlternativas' no HTML.
-        caixaAlternativas.appendChild(botaoAlternativa);
+        caixaAlternativas.appendChild(botaoAlternativa);// Chamada inicial da função para começar o jogo (geralmente no final do script ou após as declarações)
+// Exemplo:
+// mostraPergunta();
     }
 }
 
